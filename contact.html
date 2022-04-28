@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inspiration&family=Montserrat&family=Roboto:ital,wght@1,900&family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="transitions.css" rel="stylesheet">   
+    <title>contact</title> 
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="/home.html" class="nav-link">
+                        <span class="selector">Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/about.html" class="nav-link">
+                        <span class="selector">About</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/projects.html" class="nav-link">
+                        <span class="selector">Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/contact.html" class="nav-link">
+                        <span class="active">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main id="swup" class="transition-swipe">
+        <div class="contact">
+            <div class="contact-phone-email">
+                <h1>Phone number and email</h1>
+            </div>
+            <div class="container">
+                <form action="container-close">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="subject">Message</label>
+                  <textarea id="subject" name="subject" placeholder="Please leave a contact within your message. Thank you!" style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://www.linkedin.com/in/jeff-hoyt" target=""><i class="fa fa-linkedin-square" id="linkedin" style="font-size:2rem;color:rgb(255, 255, 255)"></i></a>
+        <a href="#"><i class="fa fa-commenting-o " style="font-size:2rem;color:white"></i></a>
+        <a href="https://www.behance.net/JeffHoyt"><i class="fa fa-behance-square" style="font-size:2rem ;color:rgb(255, 255, 255)"></i></a>
+    </footer>
+    <script src="node_modules/swup/dist/swup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
