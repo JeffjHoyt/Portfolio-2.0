@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="450" height="447" viewBox="0 0 450 447">
+  <defs>
+    <clipPath id="clip-Project-placeholder-image">
+      <rect width="450" height="447"/>
+    </clipPath>
+  </defs>
+  <g id="Project-placeholder-image" clip-path="url(#clip-Project-placeholder-image)">
+    <rect width="450" height="447" fill="#fff"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="450" height="449" transform="translate(0 -2)" fill="#fff"/>
+    <text id="Project_Placeholder" data-name="Project
+Placeholder" transform="translate(225 208)" font-size="54" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="-95.186" y="0">Project</tspan><tspan x="-159.337" y="74">Placeholder</tspan></text>
+  </g>
+</svg>

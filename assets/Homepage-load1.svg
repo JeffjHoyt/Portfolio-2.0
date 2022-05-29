@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1193" height="671" viewBox="0 0 1193 671">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Homepage-load);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #22f819;
+        stroke-width: 1.5px;
+        font-size: 206px;
+        font-family: StarJedi, Star Jedi;
+      }
+    </style>
+    <clipPath id="clip-Homepage-load">
+      <rect width="1193" height="671"/>
+    </clipPath>
+  </defs>
+  <g id="Homepage-load" class="cls-1">
+    <text id="Jeff_Hoyt" data-name="Jeff Hoyt" class="cls-2" transform="translate(5 429)"><tspan x="0" y="0">Jeff Hoyt</tspan></text>
+  </g>
+</svg>

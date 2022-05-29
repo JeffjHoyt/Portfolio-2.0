@@ -3,6 +3,8 @@
     transition: 0.5s ease-in;
     transform: translateX(0);
     transform-origin: left;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -10,10 +12,14 @@ html.is-animating .transition-swipe {
     opacity: 1;
     transform: translateX(100%);
     transition: ease-in;
+    margin: 0;
+    padding: 0;
 }
 
 html.is-leaving .transition-swipe {
     opacity: 1;
     transition: 0.4s ease-out;
     transform: translateX(-100%);
+    margin: 0;
+    padding: 0;
 }

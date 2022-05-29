@@ -10,65 +10,351 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inspiration&family=Montserrat&family=Roboto:ital,wght@1,900&family=Space+Mono&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <link href="transitions.css" rel="stylesheet">    
+
     <title>Home</title>
 </head>
 <body>
 
     <header>
-        <nav class="navbar">
+        <div id="navbar-background">
+
+        </div>
+        <nav id="navbar">
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="/home.html" class="nav-link">
-                        <span class="active">Home</span>
+                        <span class="selector">Home</span>
                     </a>
+                </li>
+                <li class="remove">
+                    |
                 </li>
                 <li class="nav-item">
                     <a href="/about.html" class="nav-link">
                         <span class="selector">About</span>
                     </a>
                 </li>
+                <li class="remove">
+                    |
+                </li>
                 <li class="nav-item">
                     <a href="/projects.html" class="nav-link">
                         <span class="selector">Projects</span>
                     </a>
+                </li>
+                <li class="remove">
+                    |
                 </li>
                 <li class="nav-item">
                     <a href="/contact.html" class="nav-link">
                         <span class="selector">Contact</span>
                     </a>
                 </li>
-            </ul>
+                
+                </li>
         </nav>
 
     </header>
 
-    <main id="swup" class="transition-swipe intro">
+    <main>
         <div class="intro">
-            <span>Hi, I'm Jeff & I</span>
-            <p>Love to code</p>
-            <p>Love to learn</p>
-            <p>Love to collaborate</p>
-            <p>Attempt to mountain bike (animate with other personal things)</p>
-        </div>
-        <div class="skills-description">
-            <h1>Skills description area</h1>
-        </div>
-        <div class="skills">
-            <p> skill images with descriptions</p>
+            <div class="typing">
+                    <h1>Hi, I'm Jeff</h1>>
+                    <h2>I love to <span class="auto-type2"></span></h2>
+            </div>
+            <div class="intro-pic">
+                <img src="/assets/Me-Anx-filteredbg.svg">
+            </div>
         </div>
 
-        <div class="resume">
-            <p>resume section</p>
+
+        <div id="about-description">
         </div>
+        <div class="about-background">
+
+            <div class="skills-description">
+                <h1>My toolbox includes</h1>
+            </div>
+
+
+
+            <div class="skills">
+                <div class="box-1">
+                    <div>
+                    <img class="skill-shadow-effect" src="assets/Icon-javascript.svg">
+                    </div>
+                    <div>
+                        <h3>Javascript</h3>
+                    </div>
+                </div>
+
+                <div class="box-1">
+                    <img src="assets/Icon-css.svg">
+                    <h3>CSS</h3>
+                </div>
+
+                <div class="box-1">
+                    <img src="assets/icon-sass.svg">
+                    <h3>Sass</h3>
+                </div>
+
+                <div class="box-1">
+                    <img src="assets/icon-visual-studio-code.svg">
+                    <h3>VS Code</h3>
+                </div>
+
+                <div class="box-1">
+                    <img src="assets/icon-responsive-design.svg">
+                    <h3>Responsive Design</h3>
+                </div>
+
+                <div class="box-1">
+                    <img src="assets/Icon-HTML.svg">
+                    <h3>HTML</h3>
+                </div>
+
+                <div class="box-1">
+                    <img src="assets/icon-git.svg">
+                    <h3>Git</h3>
+                </div>
+
+                <div class="box-1">
+                    <img src="assets/icon-github.svg">
+                    <h3>Github</h3>
+                </div>
+
+                <div class="box-1">
+                    <img src="assets/icon-adobe-xd.svg">
+                    <h3>Adobe XD</h3>
+                </div>
+
+                <div class="box-1">
+                    <img src="assets/icon-figma.svg">
+                    <h3>Figma</h3>
+                </div>
+
+                <div class="box-1">
+                    <img src="assets/icon-react.svg">
+                    <h3>React</h3>
+                </div>
+
+                <div class="box-1">
+                    <img src="assets/Icon-bootstrap.svg">
+                    <h3>Bootstrap</h3>
+                </div>
+
+            </div>
+        </div>
+                                                    <!-- PROJECTS SECTION-->
+        <section id="projects">
+            <div class="projects-title">
+                <h1>Recent Projects</h1>
+            </div>
+            <div class="projects">
+                <div class="project-1 project-hover"></div>
+                <div class="project-placeholder project-hover"></div>
+                <div class="project-placeholder project-hover"></div>
+            </div>
+        </section>
+
+        <secton id="resume">
+            <div class="resume-bg-card">
+                <div class="myexperience">
+                    <h2>My Work Experience</h2>
+                </div>
+                    <div class="resume-block">
+                        <h3>Web Developer</h3>
+                        <h4>Generation USA</h4>
+                        <h5>Feb 2022 - May 2022</h5>
+                        <details>
+                            <p>
+                                - Generation USA Training internship
+                            </p>
+                            <p> - Participating in a 4 month, 600+ hour Junior Web Developer program
+                                programming, front-end web development, problem-solving, web standards and working within an Agile team methodology.
+                            </p>
+                            <p> 
+                                - Created a project management tool that allowed users to input to-do tasks, leading the UX / UI design and web development implementation within a team of 5 developers. This project would allow a team to create tasks, assign team members, and set due dates.
+                            </p>
+
+                            <p> 
+                                - Led the successful implementation of Scrum to a team of 5 developers and reduced deployment time for our project by a week by implementing devops tools such as GIT and continuous integration.
+                            </p>
+
+                            <p> 
+                                - Learned the fundamentals of JavaScript, programming, developer tools, git, github and problem solving issues that came during our debugging process.
+                            </p>
+                        </details>
+                    </div>
+
+                    <div class="resume-block">
+                        <h3>Finance Manager</h3>
+                        <h4>Ourisman Automotive</h4>
+                        <h5>Nov 2017 - Jan 2022</h5>
+                        <details>
+                            <p>
+                                - Tasked with Finalizing deals, organizing customers within a database / CRM software, and using problem solving skills to ensure clean cash flow for internal business stakeholders.
+                            </p>
+                            <p>
+                                - Achieved an above average profit per deal along with a company high in customer satisfaction in November 2017, November 2018, November, 2019, November 2020, and November 2021.
+                            </p>
+                            <p>
+                                - Worked on complex problems that involved analyzing customer credit histories and identifying possible programs that I would be able to find an approval.
+                            </p>
+                            <p>
+                                - Handled a tremendous range of customer issues that required a high degree of problem-solving skills and customer facing skills.
+                            </p>
+                            <p>
+                                - Would collaborate with 7 other Finance Managers to develop best practices in both our sales approach and our management of customers within our CRM software tools.
+                            </p>
+
+                        </details>
+
+                    </div>
+
+                    <div class="resume-block">
+                        <h3>UX & UI Designer</h3>
+                        <h4>CareerFoundry</h4>
+                        <h5>Feb 2021 - Dec 2021</h5>
+                        <details>
+                            <p>
+                                - Training participant
+                            </p>
+                            <p>
+                                - Participated in a year long, hands on training program for UX / User Experience Design.
+                            </p>
+                            <p>
+                                - Envisioned and developed the UX design project “HealthNut”, a health app built to focus on a person’s personal health
+                                conditions when giving health and fitness advice.
+                            </p>
+                            <p>
+                                - Focused on qualitative data by conducting in-person user interviews. Compiled interview data into rainbow spreadsheets to
+                                then create my user personas to which I used as reference throughout the user-centered design process.
+                            </p>
+                            <p>
+                                - Produced low, mid, and high fidelity wireframes and prototypes with Adobe XD.
+                            </p>
+                            <p>
+                                - Successfully finalized the project after fine tuning the app with usability testing.
+                            </p>
+
+                        </details>
+
+                    </div>
+
+                    <div class="resume-block">
+                        <h3>Sales Manager</h3>
+                        <h4>Ourisman Automotive</h4>
+                        <h5>April 2012 - Nov 2017</h5>
+                        <details>
+                            <p>
+                                - Tasked with meeting organization goals within monthly and yearly deadlines along with hiring, training and mentoring new sales people.
+                            </p>
+                            <p>
+                                - Placed in charge of handling all CMS management by analyzing sales peoples activity and monitoring through CMS provided analytics.
+                            </p>
+                            <p>
+                                - Used SEO / search engine optimization tools while collaborating with other managers to design website content.
+                            </p>
+                            <p>
+                                - Used problem solving skills to identify customer objections in order to effectively help overcome each one in order to finalize
+                                the sale.
+                            </p>
+                            <p>
+                                - Used a customer-centric focus to prioritize the customer throughout the entire sales process without losing sight of the
+                                organization’s goals.
+                            </p>
+                            <p>
+                                - Constantly researching and learning new information and technology in a fast-paced industry that requires you to always be
+                                up to date product information, sales techniques, CRM software tools, marketing campaigns, and more.
+                            </p>
+                            <p>
+                                - Used my management and motivational skills to help lead my dealership to be the #1 Kia dealership in the region from April
+                                2012 to November 2017.
+                            </p>
+
+                        </details>
+
+                    </div>
+
+                    <div class="resume-block">
+                        <h3>Internet Sales Consultant</h3>
+                        <h4>Ourisman Automotive</h4>
+                        <h5>March 2011 - April 2012</h5>
+                        <details>
+                            <p>
+                                - Tasked with achieving a high amount of sales along with keeping a high ranking for customer satisfaction.
+                            </p>
+                            <p>
+                                - Displayed excellent written and verbal communication skills which was proven by my high volume of sales and customer
+                                satisfaction index scores.
+                            </p>
+                            <p>
+                                - In charge of handling companies E-commerce / Ecommerce.
+                            </p>
+                            <p>
+                                - Had to master companies CRM software in order to market myself to a large customer database.
+                            </p>
+                            <p>
+                                - Improved online sales by reinforcing the use of technology with mobile platforms in order to quickly facilitate the sale.
+                            </p>
+                            <p>
+                                - Always maintained personal enthusiasm and outlook on every opportunity and took every situation as a learning experience.
+                            </p>
+                            <p>
+                                - Went on to be the #1 salesperson In December 2011.
+                            </p>
+
+                        </details>
+
+                    </div>
+
+                    <div class="resume-block">
+                        <h2>Education</h2>
+                            <details>
+                                <h3>A.S Business Administration</h3>
+                                <h4>NVCC 2008 - 2010</h4>
+                            </details>
+                    </div>
+            </div>
+        </secton>
+
+
+        <section id="contact-me">
+            <div class="contact-info">
+                <h2>Contact me</h2>
+                <h3><a href="">JeffjHoyt@gmail.com</a></h3>
+            </div>
+
+        </section>
+
+
+        
 
     </main>
     <footer class="footer">
-        <a href="https://www.linkedin.com/in/jeff-hoyt" target=""><i class="fa fa-linkedin-square" id="linkedin" style="font-size:2rem;color:rgb(255, 255, 255)"></i></a>
-        <a href="#"><i class="fa fa-commenting-o " style="font-size:2rem;color:white"></i></a>
-        <a href="https://www.behance.net/JeffHoyt"><i class="fa fa-behance-square" style="font-size:2rem ;color:rgb(255, 255, 255)"></i></a>
+        <div class="footer-button">
+            <a onClick="NewTabLinkedin()">
+                <i class="fa fa-linkedin-square icon" id="linkedin" style="font-size:40px;color:rgb(255, 255, 255)"></i>
+            </a>
+        </div>
+        <div class="footer-button">
+            <a onClick="NewTabHackerrank()">
+                <i class="fa fa-brands fa-hackerrank icon" style="font-size:40px;color:white"></i>
+            </a>
+        </div>
+        <div class="footer-button">
+            <a onClick="NewTabBehance()">
+                <i class="fa fa-behance-square icon" style="font-size:40px ;color:rgb(255, 255, 255)"></i>
+            </a>
+        </div>
     </footer>
-    <script src="node_modules/swup/dist/swup.min.js"></script>
+
+
+    <script defer src="https://kit.fontawesome.com/85afe6464c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="script.js"></script>
+
+
 </body>
 </html>

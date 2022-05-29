@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="2654" viewBox="0 0 375 2654">
+  <defs>
+    <clipPath id="clip-Bg-test">
+      <rect width="375" height="2654"/>
+    </clipPath>
+  </defs>
+  <g id="Bg-test" clip-path="url(#clip-Bg-test)">
+    <rect width="375" height="2654" fill="#fff"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="375" height="557"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="630" height="250.441" transform="matrix(0.995, -0.105, 0.105, 0.995, -205.73, 392.368)"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="1981" height="672" transform="matrix(0.995, 0.105, -0.105, 0.995, -1.952, 1954)"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="2075" height="845.91" transform="translate(-59.793 2135.332) rotate(2)"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="375" height="557" transform="translate(375.268 1488.437) rotate(180)"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="630" height="250.441" transform="matrix(-0.995, 0.105, -0.105, -0.995, 580.997, 1096.069)"/>
+  </g>
+</svg>
