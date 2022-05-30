@@ -687,12 +687,18 @@ input[type=text], select, textarea {
 
 /* --------------------------------------------- Project 2 landing page ---------------------------------- */
 
+.p2 {
+    background-color: #EFEFEF;
+    margin-top: 70px;
+    height: fit-content;
+}
+
 .outline {
     border: black 1px dotted;
 }
 
 .p2-background {
-    padding-top: 100px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -709,6 +715,7 @@ input[type=text], select, textarea {
     width: 80vw;
     height: 80vh;
     background-color: #f7e9dc;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .ex-main-box {
@@ -717,10 +724,34 @@ input[type=text], select, textarea {
 }
 
 .ex-top-box {
+    display: flex;
+    flex-direction: row;
     width: 270px;
     height: 64px;
     border-radius: 11px;
     background-color: #EB765D;
+}
+
+.ex-top-box-left {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    text-align: center;
+}
+
+.ex-top-box-left-top {
+    width: 100%;
+    height: 50%;
+    align-content: center;
+}
+
+.ex-top-box-left-bottom {
+    width: 100%;
+    height: 50%;
 }
 
 .ex-mid-box {
