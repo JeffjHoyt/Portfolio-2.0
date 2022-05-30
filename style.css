@@ -685,6 +685,57 @@ input[type=text], select, textarea {
     }
 }
 
+/* --------------------------------------------- Project 2 landing page ---------------------------------- */
+
+.outline {
+    border: black 1px dotted;
+}
+
+.p2-background {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex-bg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+    background-color: #f7e9dc;
+}
+
+.ex-main-box {
+
+
+}
+
+.ex-top-box {
+    width: 270px;
+    height: 64px;
+    border-radius: 11px;
+    background-color: #EB765D;
+}
+
+.ex-mid-box {
+    width: 270px;
+    height: 10px;
+    background-color: transparent;
+}
+
+.ex-bottom-box {
+    width: 270px;
+    height: 256px;
+    border-radius: 11px;
+    background-color: #fffcf7;
+}
+
 /* --------------------------------------------- @Media screens ----------------------------------------- */
 @media screen and (max-width: 470px) {
     .project-1 {
