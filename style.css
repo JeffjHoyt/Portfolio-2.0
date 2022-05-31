@@ -691,7 +691,7 @@ input[type=text], select, textarea {
 /* --------------------------------------------- Project 2 landing page ---------------------------------- */
 
 .p2font-small {
-    font-size: 11px;
+    font-size: 9px;
 }
 
 .p2font-medium {
@@ -869,11 +869,54 @@ input[type=text], select, textarea {
     border-radius: 3px;
 }
 
+#monday:hover {
+    transform: scale(1.09);
+}
+
+.monday {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    margin-bottom: 10px;
+    visibility: hidden;
+}
+
+#monday:hover ~ .monday {
+    visibility: visible;
+}
+
+
+
 #tuesday {
     height: 60%;
     width: 100%;
     background-color: #EB765D;
     border-radius: 3px;
+}
+
+.tuesday {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    margin-bottom: 10px;
+    visibility: hidden;
+}
+
+
+#tuesday:hover {
+    transform: scale(1.09);
+}
+
+#tuesday:hover ~ .tuesday {
+    visibility: visible;
 }
 
 #wednesday {
@@ -883,11 +926,27 @@ input[type=text], select, textarea {
     border-radius: 3px;
 }
 
+#wednesday:hover {
+    transform: scale(1.09);
+}
+
+#wednesday:hover ~ .wednesday {
+    visibility: visible;
+}
+
 #thursday {
     height: 54%;
     width: 100%;
     background-color: #EB765D;
     border-radius: 3px;
+}
+
+#thursday:hover {
+    transform: scale(1.09);
+}
+
+#thursday:hover ~ .thursday {
+    visibility: visible;
 }
 
 #friday {
@@ -897,11 +956,27 @@ input[type=text], select, textarea {
     border-radius: 3px;
 }
 
+#friday:hover {
+    transform: scale(1.09);
+}
+
+#friday:hover ~ .friday {
+    visibility: visible;
+}
+
 #saturday {
     height:76%;
     width: 100%;
     background-color: #EB765D;
     border-radius: 3px;
+}
+
+#saturday:hover ~ .saturday {
+    visibility: visible;
+}
+
+#saturday:hover {
+    transform: scale(1.09);
 }
 
 #sunday {
@@ -910,6 +985,15 @@ input[type=text], select, textarea {
     background-color: #EB765D;
     border-radius: 3px;
 }
+
+#sunday:hover {
+    transform: scale(1.09);
+}
+
+#sunday:hover ~ .sunday {
+    visibility: visible;
+}
+
 
 
 
@@ -966,6 +1050,8 @@ input[type=text], select, textarea {
     height: 40%;
     width: 100%;
 }
+
+
 
 /* --------------------------------------------- @Media screens ----------------------------------------- */
 @media screen and (max-width: 470px) {
