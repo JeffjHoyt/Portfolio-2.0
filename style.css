@@ -696,7 +696,8 @@ input[type=text], select, textarea {
 }
 
 .p2font-big {
-
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .p2 {
@@ -732,7 +733,6 @@ input[type=text], select, textarea {
 
 .ex-main-box {
 
-
 }
 
 .ex-top-box {
@@ -743,6 +743,7 @@ input[type=text], select, textarea {
     height: 64px;
     border-radius: 11px;
     background-color: #EB765D;
+    padding: 0px 15px 0px 15px;
 }
 
 .ex-top-box-left {
@@ -815,6 +816,7 @@ input[type=text], select, textarea {
     height: 256px;
     border-radius: 11px;
     background-color: #fffcf7;
+    padding: 0px 15px 0px 15px;
 }
 
 .ex-bottom-box-top {
@@ -822,13 +824,119 @@ input[type=text], select, textarea {
     width: 100%;
 }
 
+
+/* bottom box middle portion with daily bars */
+
 .ex-bottom-box-mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     height: 55%;
     width: 100%;
 }
 
+.daily-bars {
+    display: flex;
+    flex-direction: column;
+    
+    width: 14%;
+    height: 100%;
+}
+
+.bars {
+
+    height: 70%;
+    width: 100%;
+}
+
+.bars-text {
+    justify-content: flex-start;
+    text-align: center;
+    height: 30%;
+    width: 100%;
+}
+
+#monday {
+
+}
+
+#tuesday {
+    
+}
+
+#wednesday {
+    
+}
+
+#thursday {
+    
+}
+
+#friday {
+    
+}
+
+#saturday {
+    
+}
+
+#sunday {
+    
+}
+
+
+
+/* bottom box lower portion */
+
 .ex-bottom-box-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     height: 25%;
+    width: 100%;
+}
+
+.ex-bottom-box-bottom-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+
+.ex-bottom-box-bottom-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+
+.ebbbl-top {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 40%;
+    width: 100%;
+}
+
+.ebbbl-bottom {
+    height: 60%;
+    width: 100%;
+}
+
+.ebbbr-top {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 60%;
+    width: 100%;
+}
+
+.ebbbr-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 40%;
     width: 100%;
 }
 
