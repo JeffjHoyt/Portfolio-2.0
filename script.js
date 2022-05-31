@@ -1,12 +1,4 @@
 
-
-autoType();
-
-
-
-
-
-
 //footer buttons
     function NewTabLinkedin() {
         window.open(
@@ -37,7 +29,12 @@ window.onscroll = function() {
 
 
 
+
+
 //typing animation on homepage
+
+autoType();
+
 function autoType() {
   const typedTwo = new Typed(".auto-type2", {
       strings: ['code', 'collaborate', 'learn', 'mountain bike'], 
@@ -46,6 +43,8 @@ function autoType() {
       loop: true
   })
 }
+
+
 
 
 
