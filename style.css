@@ -747,9 +747,6 @@ input[type=text], select, textarea {
 }
 
 .ex-top-box-left {
-    justify-content: center;
-    align-items: center;
-    align-content: center;
     display: flex;
     flex-direction: column;
     width: 35%;
@@ -760,16 +757,18 @@ input[type=text], select, textarea {
 
 .ex-top-box-left-top {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column-reverse;
     width: 100%;
     height: 50%;
+    text-align: left;
 }
 
 .ex-top-box-left-bottom {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 50%;
+    text-align: left;
 }
 
 .ex-top-box-right {
@@ -838,7 +837,6 @@ input[type=text], select, textarea {
 .daily-bars {
     display: flex;
     flex-direction: column;
-    
     width: 14%;
     height: 100%;
 }
