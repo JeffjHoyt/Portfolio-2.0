@@ -1,0 +1,11 @@
+<svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="1385" height="96" viewBox="0 0 1385 96">
+  <g id="Group_3" data-name="Group 3">
+    <g id="Group_2" data-name="Group 2" transform="translate(0 24)">
+      <circle id="Oval" cx="24" cy="24" r="24" fill="#fff"/>
+      <path id="Path" d="M24,0S24,24,0,24c23.578.171,24,24,24,24s0-24,24-24C24,24,24,0,24,0Z" fill="#0b0d17"/>
+    </g>
+    <rect id="Rectangle" width="830" height="96" transform="translate(555)" fill="rgba(255,255,255,0.04)"/>
+    <rect id="Rectangle-2" data-name="Rectangle" width="473" height="1" transform="translate(112 48)" fill="#fff" opacity="0.251"/>
+  </g>
+  <rect id="Rectangle-3" data-name="Rectangle" width="70" height="3" transform="translate(678 93)" fill="#fff"/>
+</svg>

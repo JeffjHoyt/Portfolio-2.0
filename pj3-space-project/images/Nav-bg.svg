@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1385" height="96" viewBox="0 0 1385 96">
+  <defs>
+    <clipPath id="clip-Nav-bg">
+      <rect width="1385" height="96"/>
+    </clipPath>
+  </defs>
+  <g id="Nav-bg" clip-path="url(#clip-Nav-bg)">
+    <g id="Group_3" data-name="Group 3" transform="translate(55)">
+      <g id="Group_2" data-name="Group 2" transform="translate(0 24)">
+        <circle id="Oval" cx="24" cy="24" r="24" fill="#fff"/>
+        <path id="Path" d="M24,0S24,24,0,24c23.578.171,24,24,24,24s0-24,24-24C24,24,24,0,24,0Z" fill="#0b0d17"/>
+      </g>
+      <rect id="Rectangle" width="830" height="96" transform="translate(555)" fill="rgba(255,255,255,0.04)"/>
+      <rect id="Rectangle-2" data-name="Rectangle" width="473" height="1" transform="translate(112 48)" fill="#fff" opacity="0.251"/>
+      <g id="Group_17" data-name="Group 17" transform="translate(678 39)">
+        <g id="Group_2-2" data-name="Group 2" transform="translate(118)">
+          <text id="_01" data-name="01" transform="translate(0 12)" fill="#fff" font-size="16" font-family="Helvetica" letter-spacing="0.169em"><tspan x="0" y="0">01</tspan></text>
+          <text id="DESTINATION" transform="translate(29 12)" fill="#fff" font-size="16" font-family="Helvetica" letter-spacing="0.169em"><tspan x="0" y="0">DESTINATION</tspan></text>
+        </g>
+        <g id="Group_2_Copy_3" data-name="Group 2 Copy 3">
+          <text id="_00" data-name="00" transform="translate(0 12)" fill="#fff" font-size="16" font-family="Helvetica" letter-spacing="0.169em"><tspan x="0" y="0">00</tspan></text>
+          <text id="HOME" transform="translate(29 12)" fill="#fff" font-size="16" font-family="Helvetica" letter-spacing="0.169em"><tspan x="0" y="0">HOME</tspan></text>
+        </g>
+        <g id="Group_2_Copy" data-name="Group 2 Copy" transform="translate(296)">
+          <text id="_02" data-name="02" transform="translate(0 12)" fill="#fff" font-size="16" font-family="Helvetica" letter-spacing="0.169em"><tspan x="0" y="0">02</tspan></text>
+          <text id="CREW" transform="translate(29 12)" fill="#fff" font-size="16" font-family="Helvetica" letter-spacing="0.169em"><tspan x="0" y="0">CREW</tspan></text>
+        </g>
+        <g id="Group_2_Copy_2" data-name="Group 2 Copy 2" transform="translate(415)">
+          <text id="_03" data-name="03" transform="translate(0 12)" fill="#fff" font-size="16" font-family="Helvetica" letter-spacing="0.169em"><tspan x="0" y="0">03</tspan></text>
+          <text id="TECHNOLOGY" transform="translate(29 12)" fill="#fff" font-size="16" font-family="Helvetica" letter-spacing="0.169em"><tspan x="0" y="0">TECHNOLOGY</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+
+/* --------------------------------Backgrounds -------------------- */
+.home-bg {
+    background-image: url("images/Pj3-home-bg@3x.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .home-bg {
+        background-image: url("images/Pj3-tablet-bg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .home-bg {
+        background-image: url("images/Pj3-phone-bg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    height: 96px;
+    width: 100%;
+    margin-top: 74px;
+}
+
+#blank {
+    width: 3vw;
+    height: 100%;
+}
+
+#nav-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 4vw;
+    height: 100%;
+}
+
+#nav-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 100%;
+} 
+
+.nav-line {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 30px;
+}
+
+#nav-blur {
+    background-color: rgba(255, 255, 255, 10%);
+    width: 63vw;
+    height: 100%;
+    color: white;
+    width: 63%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+#nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+}
+
+#nav-list li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 5% 0px 5%;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:375px) {
+
+}
+
+
+/* ---------------------- @media template -----------------------*/
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:375px) {
+
+}
+
+.home-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 14%;
+}
+
+.home-text {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 368px;
+    width: 523.5px;
+}
+
+#ht-top {
+    font-size: 28px;
+    color: #D0D6F9;
+}
+
+#ht-mid {
+    font-size: 150px;
+    color: #FFFFFF;
+}
+
+#ht-bottom {
+    font-size: 18px;
+    color: #D0D6F9;
+}
+
+.home-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width: 274px;
+    height: 274px;
+    border-radius: 140px;
+}
+
+#hb-text {
+    font-size: 32px;
+    color: black;
+}
