@@ -116,73 +116,13 @@ function todayIs() {
 }
 
 function todayIsAmount() {
-    const weekday = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
-    const amounts = ["17.45", "34.92", "52.36", "31.08", "23.39", "43.28", "25.48"]
-    const d = new Date();
-    let day = weekday[d.getDay()];
-    let mouseOver = document.getElementsByClassName(day);
-
-
-
-    if (day == 'tuesday') {
-        mouseOver.style.visibility = "hidden";
-        mouseOver.addEventListener("mouseover", function( event ) {
-            event.target.style.visibility = "visible";
-        })
-        mouseOver.addEventListener("mouseleave", function( event ) {
-            event.target.style.visibility = "hidden";
-        })
-    } else if (day == 'wednesday') {
-        document.getElementById(day).style.backgroundColor = "#76B5BC";
-        mouseOver.addEventListener("mouseover", function( event ) {
-           event.target.style.backgroundColor = "rgb(124, 185, 191, 74%)";
-       })
-       mouseOver.addEventListener("mouseleave", function( event ) {
-           event.target.style.backgroundColor = "#76B5BC";
-       })
-    } else if (day == 'thursday') {
-        document.getElementById(day).style.backgroundColor = "#76B5BC";
-        mouseOver.addEventListener("mouseover", function( event ) {
-           event.target.style.backgroundColor = "rgb(124, 185, 191, 74%)";
-       })
-       mouseOver.addEventListener("mouseleave", function( event ) {
-           event.target.style.backgroundColor = "#76B5BC";
-       })
-    } else if (day == 'friday') {
-        document.getElementById(day).style.backgroundColor = "#76B5BC";
-        mouseOver.addEventListener("mouseover", function( event ) {
-           event.target.style.backgroundColor = "rgb(124, 185, 191, 74%)";
-       })
-       mouseOver.addEventListener("mouseleave", function( event ) {
-           event.target.style.backgroundColor = "#76B5BC";
-       })
-    } else if (day == 'saturday') {
-        document.getElementById(day).style.backgroundColor = "#76B5BC";
-        mouseOver.addEventListener("mouseover", function( event ) {
-           event.target.style.backgroundColor = "rgb(124, 185, 191, 74%)";
-       })
-       mouseOver.addEventListener("mouseleave", function( event ) {
-           event.target.style.backgroundColor = "#76B5BC";
-       })
-    } else if (day == 'sunday') {
-        document.getElementById(day).style.backgroundColor = "#76B5BC";
-        mouseOver.addEventListener("mouseover", function( event ) {
-           event.target.style.backgroundColor = "rgb(124, 185, 191, 74%)";
-       })
-       mouseOver.addEventListener("mouseleave", function( event ) {
-           event.target.style.backgroundColor = "#76B5BC";
-       })
-    } else if (day == 'monday') {
-        document.getElementById(day).style.backgroundColor = "#76B5BC";
-        mouseOver.addEventListener("mouseover", function( event ) {
-           event.target.style.backgroundColor = "rgb(124, 185, 191, 74%)";
-       })
-       mouseOver.addEventListener("mouseleave", function( event ) {
-           event.target.style.backgroundColor = "#76B5BC";
-       })
-    } else {
-        console.log("hello")
-    }
+    let mouseOverAmount = document.getElementsByClassName(day);
+    mouseOver.addEventListener("mouseover", function( event ) {
+        event.target.style.backgroundColor = "rgb(124, 185, 191, 74%)";
+    })
+    mouseOver.addEventListener("mouseleave", function( event ) {
+        event.target.style.backgroundColor = "#76B5BC";
+    })
 }
 
 
